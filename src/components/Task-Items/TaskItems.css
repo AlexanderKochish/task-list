@@ -1,0 +1,102 @@
+input:checked + span{
+    text-decoration: line-through;
+}
+input[type = 'checkbox']{
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+} 
+.items__container{
+    word-break: break-all;
+    border-radius: 30px;
+    width: 600px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.20);
+    background-color: rgb(215, 215, 215);
+}
+.title__items{
+    margin: auto  5px;
+    color: rgb(60, 60, 60);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+}
+.items__delete__btn{
+    margin-right: 10px;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+}
+.items__delete__btn:hover{
+    color: red;
+    transition: color 0.3s ease-in-out;
+}
+.items__container{
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+.items__container:hover{
+    transform: translateY(-5px);
+}
+@media (max-width: 620px) {
+    .items__container{
+        word-break: break-all;
+        border-radius: 30px;
+        width: 100%;
+        margin: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.20);
+        background-color: rgb(215, 215, 215); 
+    } 
+    .items__delete__btn{
+        margin-right: 10px;
+        margin-left: 20px;
+        color: rgb(97, 97, 97);
+        cursor: pointer;
+    }
+}
+@media (max-width: 590px) {
+    .items__container{
+        word-break: break-all;
+        border-radius: 30px;
+        width: 100%;
+        margin: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.20);
+        background-color: rgb(215, 215, 215); 
+        margin-right: 20px;
+    } 
+    .items__delete__btn{
+        margin-left: 10px;
+        margin-top: 5px;
+        color: rgb(97, 97, 97);
+        cursor: pointer;
+        padding: 0px 10px 0 0;
+    }
+}
+@media (max-width: 550px) {
+    .items__container{
+        word-break: break-all;
+        border-radius: 30px;
+        width: 100%;
+        margin: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.20);
+        background-color: rgb(215, 215, 215); 
+        margin-right: 20px;
+    } 
+    .items__delete__btn{
+        margin-left: 10px;
+        margin-top: 5px;
+        color: rgb(97, 97, 97);
+        cursor: pointer;
+        padding: 0px 10px 0 0;
+    }
+}

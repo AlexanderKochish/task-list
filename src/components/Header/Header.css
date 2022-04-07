@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    background-color: rgb(39, 39, 53);
+    width: 800px;
+}
+.header > h1{
+    margin: 0 auto;
+}
+.header>div{
+    margin: 0 auto;
+    transition: transform .6s ease;
+    cursor: pointer;
+}
+.header>div:hover{
+    transform: translateY(-5px);
+}
+@media (max-width: 810px) {
+    .header{
+        display: flex;
+        background-color: rgb(39, 39, 53);
+        width: 100%;
+    }
+}
